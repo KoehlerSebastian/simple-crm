@@ -19,7 +19,7 @@ constructor(private firestore: AngularFirestore, public dialogRef: MatDialogRef<
 
 
   onNoClick(){
-    // Close
+    this.dialogRef.close();
   }
 
   saveUser(){
